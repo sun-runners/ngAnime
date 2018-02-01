@@ -1,7 +1,7 @@
 ngAnime
 =======
 
-ngAnime is an angularjs library that creates countdown and countup with flipclock.js
+ngAnime is an angularjs library that creates animation with anime.js
 
 <br/>
 
@@ -9,7 +9,7 @@ DEMO
 -------
 https://kimsunwook.github.io/ngAnime
 
-(flipclock.js: https://github.com/objectivehtml/FlipClock)
+(anime.js: https://github.com/juliangarnier/anime/)
 
 <br/>
 
