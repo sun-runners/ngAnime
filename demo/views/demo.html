@@ -1,0 +1,77 @@
+<div class="w-100 h-100 f-n f-45px">
+  <ng-gradient class="p-a w-100 h-100 t-0 l-0 z-1" ng-gradient-option="{
+    opacity: [1, 1],
+    direction: 'radial',
+    states: {
+      'default-state': {
+        gradients: [
+          ['#CFD8DC', '#B0BEC5'],
+          ['#90A4AE', '#78909C'],
+          ['#78909C', '#90A4AE'],
+          ['#B0BEC5', '#CFD8DC']
+        ]
+      }
+    }
+  }"></ng-gradient>
+  <div class="p-a w-100 h-100 t-0 l-0 z-2">
+    <div full-page class="section" options="{ scrollingSpeed: 500, controlArrows: false }" ng-init="directions = [{title:'Down', value:true}, {title:'UP', value:false}];">
+      <!-- Scale -->
+      <div class="f-l w-100 h-100 slide">
+        <div class="w-100 cen">
+          <div class="w-100 t-c f-n">
+            <div class="d-ib w-100px h-100px b-we bor-100 bs-0_0_25_we_50" ng-anime ng-anime-option="{
+              direction: 'alternate',
+              scale:3,
+              loop: true,
+              duration:1500,
+              easing: 'easeInOutQuad'
+            }"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Translate -->
+      <div class="f-l w-100 h-100 slide">
+        <div class="w-100 cen">
+          <div class="w-100 t-c f-n">
+            <div class="d-ib w-100px h-100px b-we bor-9px bs-0_0_25_we_50" ng-anime ng-anime-option="{
+                direction: 'alternate',
+                translateX: [ -300, 300],
+                rotate: '2turn',
+                loop: true,
+                duration:3000,
+                easing: 'easeInOutQuad'
+              }"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BackgroundColor -->
+      <div class="f-l w-100 h-100 slide">
+        <div class="w-100 cen">
+          <div class="w-100 t-c f-n">
+            <div class="d-ib w-200px h-200px bor-100 bs-0_0_25_we_50" ng-anime ng-anime-option="{
+              direction: 'alternate',
+              backgroundColor: ['#F44336', '#FF9800', '#FFEB3B', '#8BC34A', '#00BCD4', '#2196F3', '#673AB7'],
+              loop: true,
+              duration:15000,
+              easing: 'easeInOutQuad'
+            }"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <button class="p-a w-20 h-60px cen-y c-we l-0 z-2" ng-click="movePrev();">
+        <div class="p-r w-100 h-100">
+          <i class="ion-arrow-left-b f-30px cen"></i>
+        </div>
+      </button>
+      <button class="p-a w-20 h-60px cen-y c-we r-0 z-2" ng-click="moveNext();">
+        <div class="p-r w-100 h-100">
+          <i class="ion-arrow-right-b f-30px cen"></i>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
