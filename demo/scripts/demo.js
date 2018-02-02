@@ -12,4 +12,10 @@ angular.module('app')
       $.fn.fullpage.moveSlideRight();
     };
 
+    $scope.timeline = anime.timeline({
+      direction: 'alternate',
+      loop: true,
+      autoplay: true
+    })
+
   });

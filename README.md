@@ -80,4 +80,36 @@ view.html
 
 <br/>
 
+Of course you can use the animation timeline very easily!
+
+ctrl.js
+
+```
+'use strict';
+
+angular.module('app')
+  .controller('Ctrl', function($scope) {
+
+    $scope.timeline = anime.timeline({
+      length: 5, // timeline starts when five animations are added.
+      direction: 'alternate', // direction: 'normal','reverse','alternate', default:'normal'
+      loop: true, // loop: number, boolean, default: false
+      autoplay: true // autoplay: boolean, default: true
+    });
+
+  });
+```
+
+view.html
+
+```
+<div ng-anime="timeline" ng-anime-option="{
+  order: x_index, // order:integer, define animation order of timeline, small value first start
+  direction: 'alternate',
+  translateY: [-150, 150]
+}" ng-repeat="(x_index, x) in [1,2,3,4,5]"></div>
+```
+
+<br/>
+
 Easy!

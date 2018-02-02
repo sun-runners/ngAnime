@@ -5,10 +5,10 @@
     states: {
       'default-state': {
         gradients: [
-          ['#CFD8DC', '#B0BEC5'],
-          ['#90A4AE', '#78909C'],
-          ['#78909C', '#90A4AE'],
-          ['#B0BEC5', '#CFD8DC']
+          ['#BDBDBD', '#9E9E9E'],
+          ['#757575', '#616161'],
+          ['#616161', '#757575'],
+          ['#9E9E9E', '#BDBDBD']
         ]
       }
     }
@@ -79,6 +79,23 @@
               duration:15000,
               easing: 'easeInOutQuad'
             }"></div>
+          </div>
+        </div>
+      </div>
+      <!-- order: x_index, -->
+
+      <!-- Timeline -->
+      <div class="f-l w-100 h-100 slide">
+        <div class="w-100 cen">
+          <div class="w-100 t-c f-n" ng-init="array = [1,2,3,4,5,6,7]; timeline.length = array.length;">
+            <div class="d-ib w-50px h-50px b-we bor-100 bs-0_0_25_we_50 m-15px" ng-anime="timeline" ng-anime-option="{
+              order: x_index,
+              direction: 'alternate',
+              translateY: [-150, 150],
+              loop: true,
+              duration:300,
+              easing: 'easeInOutQuad'
+            }" ng-repeat="(x_index, x) in array"></div>
           </div>
         </div>
       </div>
