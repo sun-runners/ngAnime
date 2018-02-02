@@ -85,8 +85,6 @@ Of course you can use the animation timeline very easily!
 ctrl.js
 
 ```
-'use strict';
-
 angular.module('app')
   .controller('Ctrl', function($scope) {
 
