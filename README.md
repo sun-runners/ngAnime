@@ -36,11 +36,11 @@ or
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngAnime/master/ngAnime.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngAnime/v1.0.2/ngAnime.js"></script>
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngAnime/master/ngAnime.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngAnime/v1.0.2/ngAnime.min.js"></script>
 ```
 
 <br/>
