@@ -35,13 +35,35 @@
         <div class="w-100 cen">
           <div class="w-100 t-c f-n">
             <div class="d-ib w-100px h-100px b-we bor-9px bs-0_0_25_we_50" ng-anime ng-anime-option="{
-                direction: 'alternate',
-                translateX: [ -300, 300],
-                rotate: '2turn',
-                loop: true,
-                duration:3000,
-                easing: 'easeInOutQuad'
-              }"></div>
+              translateX: [ -300, 300],
+              direction: 'alternate',
+              rotate: '2turn',
+              loop: true,
+              duration:3000,
+              easing: 'easeInOutQuad'}" ng-anime-instance="instance">
+            </div>
+          </div>
+          <div class="w-100 t-c" style="font-family: 'Noto Sans', sans-serif;">
+            <div class="d-ib f-n">
+              <div class="f-l">
+                <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.play();">
+                  <i class="w-100 ion-play"></i>
+                  <span class="w-100 f-18px">Play</span>
+                </button>
+                <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.pause();">
+                  <i class="w-100 ion-pause"></i>
+                  <span class="w-100 f-18px">Stop</span>
+                </button>
+                <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.restart();">
+                  <i class="w-100 ion-refresh"></i>
+                  <span class="w-100 f-18px">Restart</span>
+                </button>
+                <button class="d-ib c-we p-9px o-50 o-100-H" ng-click="instance.reverse();">
+                  <i class="w-100 ion-arrow-swap"></i>
+                  <span class="w-100 f-18px">Reverse</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
