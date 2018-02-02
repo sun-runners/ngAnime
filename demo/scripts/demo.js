@@ -13,7 +13,7 @@ angular.module('app')
     };
 
     $scope.timeline = anime.timeline({
-      direction: 'alternate',
+      direction: 'normal',
       loop: true,
       autoplay: true
     })
