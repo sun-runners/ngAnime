@@ -27,23 +27,29 @@ Quick start
 
 Copy-paste the stylesheet ```<script>``` into your ```<body>```.
 
+anime.js
 ```
 <script src=".bower_components/animejs/anime.js"></script>
+```
+or
+```
+<script src=".bower_components/animejs/anime.min.js"></script>
+```
+
+ngAnime.js
+```
 <script src=".bower_components/ng-anime/ngAnime.js"></script>
 ```
 or
 ```
-<script src=".bower_components/animejs/anime.min.js"></script>
 <script src=".bower_components/ng-anime/ngAnime.min.js"></script>
 ```
 or
 ```
-<script src=".bower_components/animejs/anime.js"></script>
 <script src="https://cdn.rawgit.com/KimSunWook/ngAnime/v1.0.2/ngAnime.js"></script>
 ```
 or
 ```
-<script src=".bower_components/animejs/anime.min.js"></script>
 <script src="https://cdn.rawgit.com/KimSunWook/ngAnime/v1.0.2/ngAnime.min.js"></script>
 ```
 
