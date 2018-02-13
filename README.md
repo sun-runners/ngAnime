@@ -34,9 +34,7 @@ Copy-paste the stylesheet ```<script>``` into your ```<body>```.
 ```
 <script src=".bower_components/animejs/anime.js"></script>
 ```
-
 or
-
 ```
 <script src=".bower_components/animejs/anime.min.js"></script>
 ```
