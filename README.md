@@ -28,7 +28,7 @@ Quick start
 Copy-paste the stylesheet ```<script>``` into your ```<body>```.
 
 <br/>
-###anime.js
+### anime.js
 ```
 <script src=".bower_components/animejs/anime.js"></script>
 ```
@@ -38,7 +38,7 @@ or
 ```
 
 <br/>
-###ngAnime.js
+### ngAnime.js
 ```
 <script src=".bower_components/ng-anime/ngAnime.js"></script>
 ```
