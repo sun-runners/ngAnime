@@ -25,7 +25,7 @@ bower install ngAnime --save
 Quick start
 -------
 
-Copy-paste the stylesheet <script> into your <body>.
+Copy-paste the stylesheet ```<script>``` into your ```<body>```.
 
 ```
 <script src=".bower_components/ng-anime/ngAnime.js"></script>
