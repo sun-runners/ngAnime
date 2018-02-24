@@ -2,7 +2,9 @@
   "name": "ng-anime",
   "version": "1.0.2",
   "homepage": "https://github.com/KimSunWook/ngAnime",
-  "main": ["ngAnime.js", "ngAnime.min.js"],
+  "main": [
+    "ngAnime.js"
+  ],
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
