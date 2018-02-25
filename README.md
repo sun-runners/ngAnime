@@ -44,7 +44,7 @@ Copy-paste the stylesheet ```<script>``` into your ```<body>```.
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngAnime/v1.1.2/ngAnime.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngAnime/v1.1.3/ngAnime.js"></script>
 ```
 
 <br/>
