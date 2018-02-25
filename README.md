@@ -34,10 +34,6 @@ Copy-paste the stylesheet ```<script>``` into your ```<body>```.
 ```
 <script src=".bower_components/animejs/anime.js"></script>
 ```
-or
-```
-<script src=".bower_components/animejs/anime.min.js"></script>
-```
 
 <br/>
 
@@ -48,15 +44,7 @@ or
 ```
 or
 ```
-<script src=".bower_components/ng-anime/ngAnime.min.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngAnime/v1.0.2/ngAnime.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngAnime/v1.0.2/ngAnime.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngAnime/v1.1.2/ngAnime.js"></script>
 ```
 
 <br/>

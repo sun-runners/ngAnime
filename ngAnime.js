@@ -1,6 +1,6 @@
 (function(angular) {
   angular.module('ngAnime', ['ng'])
-    .directive("ngAnime", function($rootScope, $timeout) {
+    .directive("ngAnime", ['$rootScope', '$timeout' function($rootScope, $timeout) {
       return {
         link: function(scope, element, attrs) {
 
@@ -52,4 +52,4 @@
         restrict: "A"
       };
     });
-})(angular);
+}])(angular);
