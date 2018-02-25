@@ -68,16 +68,35 @@ view.html
 ```
 <div ng-anime
   ng-anime-option="{
-    autoplay: true // autoplay:boolean, default:true
-    direction: 'alternate', // direction: 'normal','reverse','alternate', default:'normal'
-    translateX: 100, // Add 'px' by default (from 0px to 100px)
-    rotate: '1turn', // Use 'turn' as unit (from 0turn to 1turn)
-    scale: '*=2', // Multiply the current scale value by 2 (from 1 to (1 * 2))
-    backgroundColor: '#FFF', // Animate the background color to #FFF (from 'rgb(0,0,0)' to 'rgb(255,255,255)')
-    loop: true, // loop: number, boolean, default: false
-    duration:1500, // duration: number(ms), default: 1000
+
+    <!-- autoplay:boolean, default:true -->
+    autoplay: true
+
+    <!-- direction: 'normal','reverse','alternate', default:'normal' -->
+    direction: 'alternate',
+
+    <!-- Add 'px' by default (from 0px to 100px) -->
+    translateX: 100,
+
+    <!-- Use 'turn' as unit (from 0turn to 1turn) -->
+    rotate: '1turn',
+
+    <!-- Multiply the current scale value by 2 (from 1 to (1 * 2)) -->
+    scale: '*=2',
+
+    <!-- Animate the background color to #FFF (from 'rgb(0,0,0)' to 'rgb(255,255,255)') -->
+    backgroundColor: '#FFF',
+
+    <!-- loop: number, boolean, default: false -->
+    loop: true,
+
+    <!-- duration: number(ms), default: 1000 -->
+    duration:1500,
+
     delay: 0
-    easing: 'easeInOutQuad' // easeing: https://github.com/juliangarnier/anime#easing-functions
+
+    <!-- easeing: https://github.com/juliangarnier/anime#easing-functions -->
+    easing: 'easeInOutQuad'
   }">
 </div>
 ```
